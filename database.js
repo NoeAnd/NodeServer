@@ -14,9 +14,5 @@ module.exports.connectToDataBase = () => {
             if (err) throw err;
             console.log("Database created");
         });
-        con.query("CREATE DATABASE node_server", function (err, result) {
-            if (err) throw err;
-            console.log("Database created");
-        });
     });
 };
